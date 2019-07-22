@@ -7,6 +7,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends BasePage {
+	
+	
 		
 		@FindBy(xpath = "//div/ul/li[1]/a[text()='Women']")
 		private static WebElement Womenmenu;
